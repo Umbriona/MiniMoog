@@ -1,0 +1,109 @@
+(footprint "Untitled"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7903656d-1ec1-4733-9c79-d8a3630357ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Resistor_THT:R_Radial_Power_L4.2mm_W2.0mm_P3.00mm"
+		(at 4.2 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7674eaaf-810b-46bb-af17-96773c7ad9d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "907cd2cb-d952-4d82-b100-eed3f929ea6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b2c8d53-0dea-499f-b5bc-b2c1d01a3b9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.665 -1)
+		(end 3.665 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8ae33bf6-47d0-4309-85dd-06ae3bfa8a97")
+	)
+	(fp_rect
+		(start -0.665 -1)
+		(end 3.665 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8cd0fa27-d68e-455a-b955-cb74342b9bfe")
+	)
+	(fp_text user ""
+		(at 2.2 3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c4f03353-9265-478e-aa6a-dba964858a0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d34b1e2d-10da-4ae7-a32d-43a8fb59b485")
+	)
+	(pad "2" thru_hole circle
+		(at 3 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e988dc18-42ab-42ec-8210-c09e8ce36d1f")
+	)
+	(embedded_fonts no)
+)

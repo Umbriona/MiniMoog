@@ -1,0 +1,109 @@
+(footprint "Capacitor_THTC_Disc_D3.5mm_W2mm_P5.50mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.5 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "283a6e22-fe0e-4a67-8a9f-585bbb1df8f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Capacitor_THT:C_Disc_D3.5mm_W2mm_P5.50mm"
+		(at 3 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1ad21468-85f4-4286-a91e-3af94580cc2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23b6fae5-c968-41e1-8394-0bd741527524")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d58e3f0d-56ee-4fb0-81e6-aca1bfe4b6b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 1 -1)
+		(end 4.5 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2ea82918-3d73-4db1-83fe-d698e1a5a8ac")
+	)
+	(fp_rect
+		(start -0.63 -1)
+		(end 6.135 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b2d0bb6e-dd69-4533-8c8b-59777acd6a83")
+	)
+	(fp_text user ""
+		(at 5.5 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "12d59fb7-6ee9-4374-ac07-a8f908dd9c0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c3e83fc-cc2b-47b7-ad53-f3c4c1124d68")
+	)
+	(pad "2" thru_hole circle
+		(at 5.5 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9dbbd102-4319-471d-8759-0aa8af701752")
+	)
+	(embedded_fonts no)
+)
