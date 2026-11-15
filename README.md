@@ -1,0 +1,2 @@
+# MiniMoog
+Minimoog clone project
