@@ -290,6 +290,14 @@
         "I had to make \"some\" changes"
       ],
       [
+        "multiple_net_names|1041400|3581400|18789540-5107-4231-aff9-ad3fe910c56c|47dbbefd-e5a2-4a58-8cbf-7f16595b137e|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b",
+        "Thats ok, It is as the schimatic says"
+      ],
+      [
+        "multiple_net_names|1244600|3632200|6911439e-a396-4db2-9c55-026e950849b3|5fad5fd7-5e33-4be6-b347-28844b6ed2d1|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b",
+        "Thats ok, It is as the schimatic says"
+      ],
+      [
         "multiple_net_names|1320800|3403600|55baf7dd-30d2-4703-80e3-e8f1e5f65beb|ee553a4b-935e-4a11-9702-c715086e941b|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b",
         "Thats ok"
       ],
@@ -300,6 +308,10 @@
       [
         "multiple_net_names|2476500|3530600|18789540-5107-4231-aff9-ad3fe910c56c|7f5fa6cc-208f-4b33-ac2b-dec4faf7fe71|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b",
         "Thats ok"
+      ],
+      [
+        "multiple_net_names|2781300|3530600|03468584-7e8d-46e3-9887-9c189464c7d2|81130a41-c869-4cfe-9307-4f5143cb6689|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b",
+        "Thats ok, It is as the schimatic says"
       ],
       [
         "multiple_net_names|2781300|3530600|3e9eaa3c-9151-49bb-a6b6-9f7eaa274bdf|81130a41-c869-4cfe-9307-4f5143cb6689|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b|/322f6ded-351a-45e4-93cd-bc78803e3f0b",
@@ -709,7 +721,7 @@
         "uuid": "322f6ded-351a-45e4-93cd-bc78803e3f0b"
       }
     ],
-    "used_designators": "Q1,Q8-9,Q11-15,Q19-20,Q22-27,Q30,Q32-33,Q36-39",
+    "used_designators": "Q1,Q8-9,Q11-15,Q19-20,Q22-27,Q30,Q32-33,Q36-39,R8,R11,R60,R62,R107,R109,R168,C1,C6,C8,C21",
     "variants": []
   },
   "sheets": [

@@ -15813,7 +15813,7 @@
 		)
 		(uuid "16f295c0-631f-4af1-9a1a-6813d2b5a05f")
 	)
-	(text "Ocillator 1"
+	(text "Oscillator 1"
 		(exclude_from_sim no)
 		(at 339.09 106.68 0)
 		(effects
@@ -15833,7 +15833,7 @@
 		)
 		(uuid "59c8b186-3255-4e40-82c9-065a5207a674")
 	)
-	(text "Ocillator 3\n\n"
+	(text "Oscillator 3\n\n"
 		(exclude_from_sim no)
 		(at 339.09 309.88 0)
 		(effects
@@ -15853,7 +15853,7 @@
 		)
 		(uuid "a2ae158c-11cd-47c2-9962-02baac38a7ed")
 	)
-	(text "Ocillator 2\n"
+	(text "Oscillator 2\n"
 		(exclude_from_sim no)
 		(at 339.09 208.28 0)
 		(effects
@@ -15862,12 +15862,6 @@
 			)
 		)
 		(uuid "b60df4e5-8e34-45df-acd0-436675ade9bb")
-	)
-	(junction
-		(at 95.25 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00c0f698-ed49-469a-b2db-ab3b2c5e7790")
 	)
 	(junction
 		(at 219.71 248.92)
@@ -15946,12 +15940,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08b8d6dc-f213-4aa3-b205-504c8eebf005")
-	)
-	(junction
-		(at 337.82 260.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0904e71c-4478-47be-9a00-5c4d0314cc20")
 	)
 	(junction
 		(at 187.96 151.13)
@@ -16066,12 +16054,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15ed739d-b51d-43dd-a4e0-9cd42049c27d")
-	)
-	(junction
-		(at 337.82 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1656d9af-8150-407c-a505-2ac3d40e0493")
 	)
 	(junction
 		(at 477.52 96.52)
@@ -16198,6 +16180,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b57d054-efe2-459d-b165-13c8bb175066")
+	)
+	(junction
+		(at 95.25 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cecc55b-6c71-4b59-afd3-32dc920ce5f2")
 	)
 	(junction
 		(at 104.14 322.58)
@@ -16510,6 +16498,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "582f3133-3b16-4a3e-a8c4-a95300e882d8")
+	)
+	(junction
+		(at 337.82 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59202bad-dda9-47a8-ad38-59f1ff57b08f")
 	)
 	(junction
 		(at 96.52 267.97)
@@ -16854,10 +16848,10 @@
 		(uuid "82e2e62b-314d-4b22-ae4b-de9acb5d389f")
 	)
 	(junction
-		(at 337.82 158.75)
+		(at 337.82 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "835aa964-1a96-41b0-a3f9-7bce4e9451ce")
+		(uuid "83381f14-cfa5-4ce6-96df-bcf15342147a")
 	)
 	(junction
 		(at 386.08 237.49)
@@ -17152,6 +17146,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa9457e4-2e95-411a-90b0-e2f502907b7a")
+	)
+	(junction
+		(at 91.44 303.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaad3c6e-e754-44c3-a043-d229b400723a")
 	)
 	(junction
 		(at 92.71 35.56)
@@ -17562,12 +17562,6 @@
 		(uuid "e1aaec72-e85f-4a48-a9f2-4ac8222a40bd")
 	)
 	(junction
-		(at 91.44 303.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2bc88d9-fbff-4ac7-9f78-77e04e678a1d")
-	)
-	(junction
 		(at 295.91 353.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17650,6 +17644,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f41e2958-ffbd-4ea2-b801-8e1de0078a0e")
+	)
+	(junction
+		(at 337.82 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f448d47c-af46-418c-b17b-ddf522020fc8")
 	)
 	(junction
 		(at 170.18 27.94)
@@ -18807,16 +18807,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 260.35) (xy 353.06 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1862f370-1a95-45f2-b27f-8b472d0bcc31")
-	)
-	(wire
-		(pts
 			(xy 254 259.08) (xy 255.27 260.35)
 		)
 		(stroke
@@ -19037,6 +19027,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 184.15) (xy 96.52 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbd97e2-9060-4791-9617-3237b6c41907")
+	)
+	(wire
+		(pts
 			(xy 215.9 143.51) (xy 228.6 143.51)
 		)
 		(stroke
@@ -19194,16 +19194,6 @@
 			(type default)
 		)
 		(uuid "26b91c4d-4e30-4a50-8efc-f57445254135")
-	)
-	(wire
-		(pts
-			(xy 86.36 184.15) (xy 95.25 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26c1c392-a923-41c0-bef5-d3a0e0a12a2e")
 	)
 	(wire
 		(pts
@@ -20587,16 +20577,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 158.75) (xy 353.06 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52caaa63-7405-488c-9a42-808081536057")
-	)
-	(wire
-		(pts
 			(xy 469.9 281.94) (xy 508 281.94)
 		)
 		(stroke
@@ -21797,6 +21777,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 57.15) (xy 353.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76090256-d018-4c7a-87f2-e26c5d8f0d29")
+	)
+	(wire
+		(pts
 			(xy 440.69 151.13) (xy 440.69 157.48)
 		)
 		(stroke
@@ -22797,7 +22787,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 184.15) (xy 96.52 184.15)
+			(xy 86.36 184.15) (xy 95.25 184.15)
 		)
 		(stroke
 			(width 0)
@@ -22894,6 +22884,16 @@
 			(type default)
 		)
 		(uuid "97f17745-f83a-4e83-af41-2aff3a7a1f88")
+	)
+	(wire
+		(pts
+			(xy 337.82 260.35) (xy 353.06 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98153935-f340-45cb-a030-f9f9f841ffe8")
 	)
 	(wire
 		(pts
@@ -25007,16 +25007,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 57.15) (xy 353.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d215b8ab-db5e-44b7-b93e-6f09a7e391dd")
-	)
-	(wire
-		(pts
 			(xy 165.1 246.38) (xy 165.1 248.92)
 		)
 		(stroke
@@ -26014,6 +26004,16 @@
 			(type default)
 		)
 		(uuid "ee9f3a14-a5be-4d1b-82ee-7431082aafc9")
+	)
+	(wire
+		(pts
+			(xy 337.82 158.75) (xy 353.06 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeaad428-5e8c-4e14-93ac-dcbadbd3e929")
 	)
 	(wire
 		(pts
@@ -29973,6 +29973,93 @@
 		)
 	)
 	(symbol
+		(lib_id "TrimmPOT_1k:3296W-1-102LF")
+		(at 100.33 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f32c311-0fcd-4182-ab8a-46c6f4598db1")
+		(property "Reference" "R11"
+			(at 102.87 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 102.87 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints_moog:POT_3296W"
+			(at 100.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "3296W-1-102LF"
+			(at 100.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ba301906-7363-4d4c-baf7-677da55dc09a")
+		)
+		(pin "2"
+			(uuid "fe1fc4c1-ee1b-4d49-af3a-8424b43c94e4")
+		)
+		(pin "1"
+			(uuid "519c54d3-e84d-4430-8028-35cc2a870b3d")
+		)
+		(instances
+			(project "Ocilator"
+				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 386.08 139.7 0)
 		(unit 1)
@@ -31258,90 +31345,6 @@
 			(project "Ocilator"
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor_film_10nf:BFC241841003")
-		(at 337.82 260.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e896616-a86e-45a2-91ab-ed128d3ca5a1")
-		(property "Reference" "C8"
-			(at 341.63 255.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10nf"
-			(at 341.63 257.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints_moog:CAP_MKP_416-420_05.0P_03.5WX08.0HX07.2L_VIS"
-			(at 337.82 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?28128"
-			(at 337.82 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb4259b4-bfe5-4706-bee8-5cac3935da4b")
-		)
-		(pin "2"
-			(uuid "de812bbd-c3ee-4a41-8330-a8ece92a937c")
-		)
-		(instances
-			(project "Ocilator"
-				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -33801,93 +33804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TrimmPOT_1k:3296W-1-102LF")
-		(at 100.33 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "350a0439-767e-4e3d-a8a1-b4ba8a30b545")
-		(property "Reference" "R62"
-			(at 102.362 123.1899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 102.362 125.7299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints_moog:POT_3296W"
-			(at 100.33 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "3296W-1-102LF"
-			(at 100.33 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b73be76d-799c-49f2-9277-e467dace5b36")
-		)
-		(pin "2"
-			(uuid "e3b1664c-e237-4553-83f4-e184d1d3e008")
-		)
-		(pin "3"
-			(uuid "a44c7136-98f0-435f-a498-d405ca01054a")
-		)
-		(instances
-			(project "Ocilator"
-				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
-					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 82.55 270.51 90)
 		(unit 1)
@@ -34151,6 +34067,93 @@
 			(project "Ocilator"
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "Q33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrimmPOT_1k:3296W-1-102LF")
+		(at 100.33 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "371bd58d-f199-4a05-966b-55e4d6e33656")
+		(property "Reference" "R62"
+			(at 102.87 123.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 102.87 125.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints_moog:POT_3296W"
+			(at 100.33 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "3296W-1-102LF"
+			(at 100.33 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "760394b3-36e5-4695-bc75-f71ce8b9b6ba")
+		)
+		(pin "3"
+			(uuid "0f640c76-760f-468e-8b84-da5b18346453")
+		)
+		(pin "2"
+			(uuid "dd0fb6a0-d195-4de1-9eb2-0cdc471e545b")
+		)
+		(instances
+			(project "Ocilator"
+				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -34763,6 +34766,91 @@
 			(project "Ocilator"
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrimmPOT_1k:3296W-1-102LF")
+		(at 95.25 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d9aa947-0074-46fd-b452-5e9c2378da97")
+		(property "Reference" "R109"
+			(at 105.41 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 105.41 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints_moog:POT_3296W"
+			(at 95.25 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "3296W-1-102LF"
+			(at 95.25 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bcabe30-4853-4a14-b651-d71347961ba6")
+		)
+		(pin "2"
+			(uuid "fbc7c3bd-237d-4ec1-84ab-dd29411c83e6")
+		)
+		(pin "3"
+			(uuid "053b277c-b849-4ebf-a482-efab42fb541e")
+		)
+		(instances
+			(project "Ocilator"
+				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -35665,93 +35753,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TrimmPOT_1k:3296W-1-102LF")
-		(at 127 153.67 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "48aa2c6f-0d6f-45a4-967f-2b3ce1086e77")
-		(property "Reference" "R60"
-			(at 123.952 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 123.952 144.7799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints_moog:POT_3296W"
-			(at 127 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "3296W-1-102LF"
-			(at 127 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8d69d9d6-8a9f-4804-926f-a157c60ae1aa")
-		)
-		(pin "1"
-			(uuid "ac4e4142-f417-40b5-ae41-46e716969729")
-		)
-		(pin "3"
-			(uuid "a77fc1f1-35cd-4b7d-a768-355fcdce7e84")
-		)
-		(instances
-			(project "Ocilator"
-				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 508 48.26 0)
 		(unit 1)
@@ -36352,6 +36353,90 @@
 			(project "Ocilator"
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "R147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_film_10nf:BFC241841003")
+		(at 337.82 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50bd9202-8664-4705-888c-fda861fef045")
+		(property "Reference" "C1"
+			(at 341.63 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nf"
+			(at 341.63 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints_moog:CAP_MKP_416-420_05.0P_03.5WX08.0HX07.2L_VIS"
+			(at 337.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?28128"
+			(at 337.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "51afdf19-3bb8-4426-9ee7-b10f0e71ce53")
+		)
+		(pin "1"
+			(uuid "60b30f8d-5831-4531-b01f-7353ce7a9dc8")
+		)
+		(instances
+			(project "Ocilator"
+				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -38750,6 +38835,93 @@
 		)
 	)
 	(symbol
+		(lib_id "TrimmPOT_1k:3296W-1-102LF")
+		(at 127 55.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7608de27-faeb-4ed6-bcd3-0745a9e8f74b")
+		(property "Reference" "R8"
+			(at 124.46 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 124.46 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints_moog:POT_3296W"
+			(at 127 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "3296W-1-102LF"
+			(at 127 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c1e6758a-a4b3-4fa3-9a07-01c6dcb556bd")
+		)
+		(pin "1"
+			(uuid "c0e35e97-193b-4612-9f11-26f89cb6ff18")
+		)
+		(pin "3"
+			(uuid "a71df330-9dce-4b14-92de-06f96cfdc64c")
+		)
+		(instances
+			(project "Ocilator"
+				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Ca3046_7")
 		(lib_id "MiniMoog:Ca3046")
 		(at 170.18 261.62 0)
@@ -38864,91 +39036,6 @@
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "U7")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrimmPOT_1k:3296W-1-102LF")
-		(at 95.25 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7683d45e-e263-4877-9e85-ae8b1230a3ac")
-		(property "Reference" "R109"
-			(at 105.41 187.706 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 105.41 190.246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints_moog:POT_3296W"
-			(at 95.25 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "3296W-1-102LF"
-			(at 95.25 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f407b79d-4630-4eb2-8bc0-f9090bb4f658")
-		)
-		(pin "1"
-			(uuid "0e4dc54a-6743-477a-8ead-c69bbe249049")
-		)
-		(pin "2"
-			(uuid "9481ba46-0a69-4a8a-9915-91d96d1f201c")
-		)
-		(instances
-			(project "Ocilator"
-				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
-					(reference "R109")
-					(unit 1)
 				)
 			)
 		)
@@ -39965,90 +40052,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor_film_10nf:BFC241841003")
-		(at 337.82 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "856aa11a-ca42-44d9-ad5b-c4868ff07eab")
-		(property "Reference" "C1"
-			(at 341.63 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10nf"
-			(at 341.63 54.6099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints_moog:CAP_MKP_416-420_05.0P_03.5WX08.0HX07.2L_VIS"
-			(at 337.82 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?28128"
-			(at 337.82 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c6aba7d5-e6ff-40c1-be00-17b0e7ee7f86")
-		)
-		(pin "1"
-			(uuid "9013228f-c12f-4d4a-ad2a-c265d130f55e")
-		)
-		(instances
-			(project "Ocilator"
-				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 420.37 54.61 90)
 		(unit 1)
@@ -40523,91 +40526,6 @@
 			(project "Ocilator"
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "R176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrimmPOT_1k:3296W-1-102LF")
-		(at 130.81 232.41 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90d2b9d8-224d-4e2f-a748-6f550be82572")
-		(property "Reference" "R107"
-			(at 127.762 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 125.222 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints_moog:POT_3296W"
-			(at 130.81 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "3296W-1-102LF"
-			(at 130.81 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "980ea002-081e-4fe7-9f49-7935407ce47e")
-		)
-		(pin "2"
-			(uuid "ea4d275d-783a-4ded-bebf-0b4ffe0ca12a")
-		)
-		(pin "3"
-			(uuid "841113b7-5ae5-4909-ab2e-1f215beba021")
-		)
-		(instances
-			(project "Ocilator"
-				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
-					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -41240,6 +41158,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitor_film_10nf:BFC241841003")
+		(at 337.82 260.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b36e57c-14f5-4e89-8201-7df130a5deb9")
+		(property "Reference" "C8"
+			(at 341.63 255.2699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nf"
+			(at 341.63 257.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints_moog:CAP_MKP_416-420_05.0P_03.5WX08.0HX07.2L_VIS"
+			(at 337.82 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?28128"
+			(at 337.82 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d02a9c01-069c-48e6-8be0-d607bd049f53")
+		)
+		(pin "2"
+			(uuid "8c309e7c-cb76-4acc-8ed0-8084824221df")
+		)
+		(instances
+			(project "Ocilator"
+				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 420.37 147.32 90)
 		(unit 1)
@@ -41412,90 +41414,6 @@
 			(project "Ocilator"
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor_film_10nf:BFC241841003")
-		(at 337.82 158.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e74ac9d-02f9-4b4a-81ea-82c1bb649eb3")
-		(property "Reference" "C6"
-			(at 341.63 153.6699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10nf"
-			(at 341.63 156.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints_moog:CAP_MKP_416-420_05.0P_03.5WX08.0HX07.2L_VIS"
-			(at 337.82 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?28128"
-			(at 337.82 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4e212d5a-9310-4431-8410-7d725402afcc")
-		)
-		(pin "1"
-			(uuid "95e56a01-6123-411f-ae47-a5740e83966c")
-		)
-		(instances
-			(project "Ocilator"
-				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -42437,93 +42355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TrimmPOT_1k:3296W-1-102LF")
-		(at 100.33 55.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3195467-45e7-4ddb-8bcc-3aba3b4a6e6e")
-		(property "Reference" "R11"
-			(at 102.362 44.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 102.362 46.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints_moog:POT_3296W"
-			(at 100.33 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "3296W-1-102LF"
-			(at 100.33 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fa0e5968-d77f-4609-a167-1db9a3ebe395")
-		)
-		(pin "1"
-			(uuid "3b7cc968-9c6a-48fe-a634-8cf1979386d8")
-		)
-		(pin "3"
-			(uuid "885ee759-0033-4de7-aa88-5b96e1149216")
-		)
-		(instances
-			(project "Ocilator"
-				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 82.55 212.09 90)
 		(unit 1)
@@ -43113,6 +42944,91 @@
 			(project "Ocilator"
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "R92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrimmPOT_1k:3296W-1-102LF")
+		(at 91.44 303.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aae625ea-6c56-471d-bafa-15feb743d0ff")
+		(property "Reference" "R168"
+			(at 101.6 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "25"
+			(at 101.6 309.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints_moog:POT_3296W"
+			(at 91.44 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "3296W-1-102LF"
+			(at 91.44 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "13e4964f-6c5e-43be-8a2a-ddaa64425c4f")
+		)
+		(pin "2"
+			(uuid "8d44343a-5bc5-459d-8572-2394ef024002")
+		)
+		(pin "1"
+			(uuid "44d06ea4-0727-4d16-99ba-11f1b3583e2a")
+		)
+		(instances
+			(project "Ocilator"
+				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
+					(reference "R168")
 					(unit 1)
 				)
 			)
@@ -44128,6 +44044,93 @@
 			(project "Ocilator"
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "R164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrimmPOT_1k:3296W-1-102LF")
+		(at 130.81 212.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2e9bd82-7619-429d-9426-63ae0ec63da0")
+		(property "Reference" "R107"
+			(at 128.27 220.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 128.27 223.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints_moog:POT_3296W"
+			(at 130.81 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "3296W-1-102LF"
+			(at 130.81 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3860f9ca-6ef1-47d6-93ee-71e9a20a252b")
+		)
+		(pin "3"
+			(uuid "d1aa5e4d-c7e7-4fa9-9383-41db45c67017")
+		)
+		(pin "2"
+			(uuid "19369b08-ceed-46e9-b1b4-8d802e479cd7")
+		)
+		(instances
+			(project "Ocilator"
+				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -46513,93 +46516,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TrimmPOT_1k:3296W-1-102LF")
-		(at 127 76.2 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c607fcb6-b734-494d-b3b4-d0e86d98bd63")
-		(property "Reference" "R8"
-			(at 123.952 64.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 123.952 67.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints_moog:POT_3296W"
-			(at 127 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "3296W-1-102LF"
-			(at 127 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "810d0b0b-fda8-46b1-9836-ff966daa40ad")
-		)
-		(pin "1"
-			(uuid "0ffc65bd-2496-46e2-bd7f-a2ab38d5a46d")
-		)
-		(pin "2"
-			(uuid "921495e1-7aa5-4d88-85ce-ab6c3431cb50")
-		)
-		(instances
-			(project "Ocilator"
-				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LM741")
 		(at 217.17 229.87 0)
 		(mirror y)
@@ -46993,91 +46909,6 @@
 			(project "Ocilator"
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrimmPOT_1k:3296W-1-102LF")
-		(at 91.44 303.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8e4e5ea-bc04-41f9-8e9d-1c27f6e7755b")
-		(property "Reference" "R168"
-			(at 101.6 307.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "25"
-			(at 101.6 309.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints_moog:POT_3296W"
-			(at 91.44 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "3296W-1-102LF"
-			(at 91.44 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2dc0437d-f711-4dce-9cfd-043aa064dac0")
-		)
-		(pin "2"
-			(uuid "49b60808-619c-4a41-a8a2-c68956838c6f")
-		)
-		(pin "3"
-			(uuid "ca1198aa-a8dd-40b8-ae5a-f322f8f8326f")
-		)
-		(instances
-			(project "Ocilator"
-				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
-					(reference "R168")
 					(unit 1)
 				)
 			)
@@ -48230,6 +48061,177 @@
 			(project "Ocilator"
 				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
 					(reference "R180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrimmPOT_1k:3296W-1-102LF")
+		(at 127 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d57f9ce7-56fc-40ac-8bef-9f8a557dccb4")
+		(property "Reference" "R60"
+			(at 124.46 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 124.46 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints_moog:POT_3296W"
+			(at 127 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "3296W-1-102LF"
+			(at 127 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f911543-2151-4e25-84d0-c2bcf278b4fb")
+		)
+		(pin "1"
+			(uuid "d2c9736f-2195-495d-9281-42644c5a43be")
+		)
+		(pin "3"
+			(uuid "556796bc-51e5-45a7-a104-c4356f159a7f")
+		)
+		(instances
+			(project "Ocilator"
+				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_film_10nf:BFC241841003")
+		(at 337.82 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5c5f390-9aab-40a4-b08c-9a7ee3cb6cf8")
+		(property "Reference" "C6"
+			(at 341.63 153.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nf"
+			(at 341.63 156.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints_moog:CAP_MKP_416-420_05.0P_03.5WX08.0HX07.2L_VIS"
+			(at 337.82 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?28128"
+			(at 337.82 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d3f09c07-d9a1-414a-a98f-14dff84dbfa0")
+		)
+		(pin "1"
+			(uuid "ee8c0e25-3b6c-4aa3-8f66-96ba6cfcb36c")
+		)
+		(instances
+			(project "Ocilator"
+				(path "/322f6ded-351a-45e4-93cd-bc78803e3f0b"
+					(reference "C6")
 					(unit 1)
 				)
 			)
